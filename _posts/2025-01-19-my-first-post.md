@@ -15,7 +15,13 @@ Hopefully none of this has happened to you and you are just here because you bel
 
 ## What We'll Cover
 
-- Identifying performance bottlenecks
-- Using Fabric Capacity Metrics effectively  
-- Code snippets for analysis
-- Actionable steps for optimization
+- Picking suitable targets from Fabric Capacity Metrics App
+- Identifying Reports and Visuals from Azure Log Analytics Workspace
+- Building a Report and Visuals catalog
+- Navigating to problematic visuals
+## Pre-requisites
+
+- Access to Fabric Capacity Metrics App
+- Azure Log Analytics Workspace is setup and attached to workspace containing semantic models
+- Fabric item creation is enabled
+- Access to workspaces containing reports and semantic models
