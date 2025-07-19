@@ -23,6 +23,7 @@ But, lets keep it cheerful and assume that none of the above has happened to you
 - Identifying Reports and Visuals from Azure Log Analytics Workspace
 - Building a Report and Visuals catalog
 - Navigating to problematic visuals
+
 ## Pre-requisites
 
 - Access to Fabric Capacity Metrics App
