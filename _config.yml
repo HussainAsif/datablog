@@ -53,3 +53,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+theme: minima
+title: "Hussain Asif's Data Blog"
+description: "Microsoft Fabric and Power BI insights"
+
