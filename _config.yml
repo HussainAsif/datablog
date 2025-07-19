@@ -2,7 +2,7 @@ title: "Hussain Asif's Microsoft Fabric/Power BI Blog"
 description: "Deep dives into Microsoft Fabric, Power BI, and modern data analytics"
 baseurl: "/datablog"
 url: "https://hussainasif.github.io"
-remote_theme: pages-themes/midnight@v0.2.0
+theme: minima
 
 github_username: HussainAsif
 
