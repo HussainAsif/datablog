@@ -36,17 +36,19 @@ body {
 }
 
 .wrapper {
-  max-width: 800px !important;
+  max-width: 90% !important;
+  width: 90% !important;
 }
 
-/* Post content with lilac background */
+/* Post content with soft lavender gradient */
 .post-content {
-  background-color: #c8a2c8 !important;
+  background: linear-gradient(to bottom, #faf8ff 0%, #f5f0ff 25%, #ffffff 75%, #f8f5ff 100%) !important;
+  border: 1px solid #e0d4ff !important;
   color: #2d2d2d !important;
   padding: 2.5rem !important;
   border-radius: 10px !important;
   margin: 1.5rem 0 !important;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
   line-height: 1.7 !important;
 }
 
@@ -94,7 +96,7 @@ body {
 
 .post-content h2 {
   font-size: 1.6rem !important;
-  border-bottom: 2px solid #c8a2c8 !important;
+  border-bottom: 2px solid #e0d4ff !important;
   padding-bottom: 0.3rem !important;
 }
 
@@ -117,13 +119,45 @@ body {
   font-size: 0.9em !important;
 }
 
-/* Blockquotes */
+/* Blockquotes and Emphasis Boxes */
 .post-content blockquote {
   border-left: 4px solid #5d4e75 !important;
-  background-color: #b8a2b8 !important;
-  margin: 1.5rem 0 !important;
-  padding: 1rem 1.5rem !important;
+  background: linear-gradient(to right, #f0ebff 0%, #faf8ff 100%) !important;
+  margin: 1rem 0 !important;
+  padding: 0.8rem 1.2rem !important;
   border-radius: 0 6px 6px 0 !important;
+  border: 1px solid #e0d4ff !important;
+}
+
+/* Low padding emphasis boxes */
+.post-content .emphasis-box,
+.post-content .callout {
+  background: linear-gradient(135deg, #f5f0ff 0%, #ffffff 50%, #f0ebff 100%) !important;
+  border: 1px solid #d4c5ff !important;
+  border-radius: 6px !important;
+  padding: 0.6rem 1rem !important;
+  margin: 1rem 0 !important;
+  border-left: 3px solid #7c4dff !important;
+}
+
+/* Warning boxes */
+.post-content .warning {
+  background: linear-gradient(135deg, #fff8f0 0%, #ffffff 50%, #fff5eb 100%) !important;
+  border: 1px solid #ffcc99 !important;
+  border-left: 3px solid #ff9500 !important;
+  border-radius: 6px !important;
+  padding: 0.6rem 1rem !important;
+  margin: 1rem 0 !important;
+}
+
+/* Success boxes */
+.post-content .success {
+  background: linear-gradient(135deg, #f0fff8 0%, #ffffff 50%, #ebffeb 100%) !important;
+  border: 1px solid #b3e6cc !important;
+  border-left: 3px solid #28a745 !important;
+  border-radius: 6px !important;
+  padding: 0.6rem 1rem !important;
+  margin: 1rem 0 !important;
 }
 
 /* Lists */
@@ -172,6 +206,11 @@ body {
 
 /* Responsive adjustments */
 @media screen and (max-width: 800px) {
+  .wrapper {
+    max-width: 95% !important;
+    width: 95% !important;
+  }
+  
   .post-content {
     padding: 1.5rem !important;
     margin: 1rem 0 !important;
