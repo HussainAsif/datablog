@@ -76,6 +76,10 @@ body {
 }
 
 /* Headers in post content */
+.post-content h1:first-child {
+  display: none !important; /* Hide first h1 to avoid duplicate title */
+}
+
 .post-content h1,
 .post-content h2,
 .post-content h3,
@@ -86,6 +90,12 @@ body {
   margin-top: 2rem !important;
   margin-bottom: 1rem !important;
   font-weight: 600 !important;
+}
+
+.post-content h2 {
+  font-size: 1.6rem !important;
+  border-bottom: 2px solid #c8a2c8 !important;
+  padding-bottom: 0.3rem !important;
 }
 
 /* Code blocks */
