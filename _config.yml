@@ -53,6 +53,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-remote_theme: pages-themes/midnight@v0.2.0
 title: "Hussain Asif's Microsoft Fabric/Power BI Blog"
-description: "Deep dives into Microsoft Fabric, Power BI, and all things lakehouse"
+description: "Deep dives into Microsoft Fabric, Power BI, and modern data analytics"
+theme: minima
