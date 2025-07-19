@@ -13,7 +13,7 @@ body {
 /* Header styling */
 .site-header {
   background-color: #f0ede8 !important;
-  border-bottom: 1px solid #ddd !important;
+  border-bottom: 2px solid #a0855b !important;
 }
 
 .site-title {
@@ -26,7 +26,7 @@ body {
 }
 
 .site-nav .page-link:hover {
-  color: #7c4dff !important;
+  color: #a0855b !important;
 }
 
 /* Main page content */
@@ -40,16 +40,16 @@ body {
   width: 90% !important;
 }
 
-/* Post content with soft lavender gradient */
+/* Post content with darker lilac and gooseberry tinge */
 .post-content {
-  background: linear-gradient(to bottom, #e8d2ea 0%, #e6d0e8 50%, #e4cee6 100%) !important;
-  border: 1px solid #e0d4ff !important;
+  background-color: #e6d0e8 !important;
   color: #2d2d2d !important;
   padding: 2.5rem !important;
   border-radius: 10px !important;
   margin: 1.5rem 0 !important;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
   line-height: 1.7 !important;
+  border: 1px solid #d0b8d2 !important;
 }
 
 /* Post title */
@@ -67,14 +67,14 @@ body {
   margin-bottom: 1.5rem !important;
 }
 
-/* Links in post content */
+/* Links in post content - earthy tone */
 .post-content a {
-  color: #5d4e75 !important;
+  color: #8b6914 !important;
   text-decoration: underline !important;
 }
 
 .post-content a:hover {
-  color: #4a3d5c !important;
+  color: #a0855b !important;
 }
 
 /* Headers in post content */
@@ -94,70 +94,94 @@ body {
   font-weight: 600 !important;
 }
 
+/* Section dividers - solid earthy brown lines */
 .post-content h2 {
   font-size: 1.6rem !important;
-  border-bottom: 2px solid #e0d4ff !important;
+  border-bottom: 3px solid #a0855b !important;
+  padding-bottom: 0.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.post-content h3 {
+  border-bottom: 2px solid #b8956b !important;
   padding-bottom: 0.3rem !important;
 }
 
-/* Code blocks */
+/* Code blocks - light brick red background */
 .post-content pre,
 .post-content code {
-  background-color: #2a2a2a !important;
-  color: #f8f8f2 !important;
-  border: 1px solid #444 !important;
+  background-color: #cd853f !important;
+  color: #ffffff !important;
+  border: 1px solid #b8762e !important;
   border-radius: 4px !important;
+  font-weight: 500 !important;
 }
 
 .post-content pre {
   padding: 1rem !important;
   overflow-x: auto !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
 }
 
 .post-content code {
-  padding: 2px 6px !important;
+  padding: 3px 8px !important;
   font-size: 0.9em !important;
 }
 
-/* Blockquotes and Emphasis Boxes */
+/* Emphasis boxes - warm brown tone */
 .post-content blockquote {
-  border-left: 4px solid #5d4e75 !important;
-  background: linear-gradient(to right, #f0ebff 0%, #faf8ff 100%) !important;
+  border-left: 4px solid #8b6914 !important;
+  background-color: #d4c4a8 !important;
   margin: 1rem 0 !important;
   padding: 0.8rem 1.2rem !important;
   border-radius: 0 6px 6px 0 !important;
-  border: 1px solid #e0d4ff !important;
+  border: 1px solid #c4b498 !important;
+  color: #2d2d2d !important;
 }
 
-/* Low padding emphasis boxes */
+/* Low padding emphasis boxes - warm brown */
 .post-content .emphasis-box,
 .post-content .callout {
-  background: linear-gradient(135deg, #f5f0ff 0%, #ffffff 50%, #f0ebff 100%) !important;
-  border: 1px solid #d4c5ff !important;
+  background-color: #d4c4a8 !important;
+  border: 1px solid #c4b498 !important;
   border-radius: 6px !important;
   padding: 0.6rem 1rem !important;
   margin: 1rem 0 !important;
-  border-left: 3px solid #7c4dff !important;
+  border-left: 3px solid #8b6914 !important;
+  color: #2d2d2d !important;
 }
 
-/* Warning boxes */
+/* Warning boxes - earthy orange */
 .post-content .warning {
-  background: linear-gradient(135deg, #fff8f0 0%, #ffffff 50%, #fff5eb 100%) !important;
-  border: 1px solid #ffcc99 !important;
-  border-left: 3px solid #ff9500 !important;
+  background-color: #e6d4b8 !important;
+  border: 1px solid #d4c4a8 !important;
+  border-left: 3px solid #cd853f !important;
   border-radius: 6px !important;
   padding: 0.6rem 1rem !important;
   margin: 1rem 0 !important;
+  color: #2d2d2d !important;
 }
 
-/* Success boxes */
+/* Success boxes - earthy green */
 .post-content .success {
-  background: linear-gradient(135deg, #f0fff8 0%, #ffffff 50%, #ebffeb 100%) !important;
-  border: 1px solid #b3e6cc !important;
-  border-left: 3px solid #28a745 !important;
+  background-color: #d8e4d0 !important;
+  border: 1px solid #c8d4c0 !important;
+  border-left: 3px solid #7d8471 !important;
   border-radius: 6px !important;
   padding: 0.6rem 1rem !important;
   margin: 1rem 0 !important;
+  color: #2d2d2d !important;
+}
+
+/* Info boxes - earthy blue-gray */
+.post-content .info {
+  background-color: #d0d8e4 !important;
+  border: 1px solid #c0c8d4 !important;
+  border-left: 3px solid #718394 !important;
+  border-radius: 6px !important;
+  padding: 0.6rem 1rem !important;
+  margin: 1rem 0 !important;
+  color: #2d2d2d !important;
 }
 
 /* Lists */
@@ -170,12 +194,34 @@ body {
   margin-bottom: 0.5rem !important;
 }
 
+/* Tables - earthy styling */
+.post-content table {
+  border-collapse: collapse !important;
+  width: 100% !important;
+  margin: 1.5rem 0 !important;
+  background-color: #f5f2eb !important;
+}
+
+.post-content th,
+.post-content td {
+  border: 1px solid #d4c4a8 !important;
+  padding: 0.7rem !important;
+  text-align: left !important;
+}
+
+.post-content th {
+  background-color: #d4c4a8 !important;
+  font-weight: 600 !important;
+  color: #2d2d2d !important;
+}
+
 /* Home page post list */
 .post-list {
   background-color: #f0ede8 !important;
   padding: 2rem !important;
   border-radius: 10px !important;
   margin: 1rem 0 !important;
+  border: 1px solid #e0d8cd !important;
 }
 
 .post-list .post-link {
@@ -185,7 +231,7 @@ body {
 }
 
 .post-list .post-link:hover {
-  color: #7c4dff !important;
+  color: #8b6914 !important;
   text-decoration: none !important;
 }
 
@@ -196,7 +242,7 @@ body {
 /* Footer */
 .site-footer {
   background-color: #f0ede8 !important;
-  border-top: 1px solid #ddd !important;
+  border-top: 2px solid #a0855b !important;
   color: #666666 !important;
 }
 
@@ -218,5 +264,9 @@ body {
   
   .post-title {
     font-size: 1.8rem !important;
+  }
+  
+  .post-content h2 {
+    font-size: 1.4rem !important;
   }
 }
