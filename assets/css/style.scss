@@ -1,0 +1,30 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  background-color: #1a0b2e !important;
+  color: #e8e8e8 !important;
+}
+
+.site-header {
+  background-color: #2a1a4a !important;
+  border-bottom: 1px solid #444 !important;
+}
+
+.page-content {
+  background-color: #1a0b2e !important;
+}
+
+.post-content {
+  color: #d0d0d0 !important;
+}
+
+a {
+  color: #9f7aea !important;
+}
+
+.site-title {
+  color: #e8e8e8 !important;
+}
