@@ -54,6 +54,5 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 theme: minima
-title: "Hussain Asif's Data Blog"
-description: "Microsoft Fabric and Power BI insights"
-
+title: "Hussain Asif's Microsoft Fabric/Power BI Blog"
+description: "Deep dives into Microsoft Fabric, Power BI, and all things lakehouse"
