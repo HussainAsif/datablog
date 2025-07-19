@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Finding Compute Expensive Visuals in Power BI – An End-to-End Guide"
-date: 2025-07-19
+title: "Finding Compute Expensive Visuals in Power BI"
+subtitle: "An End-to-End Guide"
+date: 2025-01-19
 categories: [Power BI, Microsoft Fabric Capacity Metrics App, Azure Log Analytics Workspace, Performance]
 ---
 
