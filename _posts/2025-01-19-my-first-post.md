@@ -8,8 +8,8 @@ categories: [Power BI, Microsoft Fabric Capacity Metrics App, Azure Log Analytic
 
 # Finding Compute Expensive Visuals in Power BI – An End-to-End Guide
 
-This article deals with a very specific problem. How to find visuals which have been eating a lot of compute units in your Power BI/Fabric capacity.
-
+This article deals with a very specific problem.  
+How to find visuals which have been eating a lot of compute units in your Power BI/Fabric capacity.  
 While there is a wealth of information available elsewhere in bits and pieces, this post provides a walkthrough with code snippets, making it easier for a capacity admin to pinpoint problematic visuals.
 
 So, one fine morning you open Fabric Capacity Metrics app and see a whopper of a spike in the utilisation tab, kind of like below, or worse, the capacity is sluggish one afternoon because it had to deal with one too many hefty queries and now it is in the state of interactive delay. While capacity slowly recovers (maybe/hopefully!) you might be sitting there wondering how on earth did one query to a dataset in a dev environment eat up 10% or more of the base capacity.
